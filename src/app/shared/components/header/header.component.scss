@@ -1,0 +1,148 @@
+.header {
+    .page-links {
+      .nav-item {
+        margin-right: 12px;
+        a{
+          // color: rgb(197, 197, 197);
+        }
+      }
+
+      .active,
+      .nav-item:hover {
+        border-bottom: 3px solid red;
+        cursor: pointer;
+        font-weight: bold;
+        a {
+          border: none;
+          color: #000;
+        }
+      }
+
+      // .active, .nav-item{
+      //   border-bottom: 3px solid red;
+      // }
+    }
+
+  .login-link {
+    display: flex;
+
+    ul {
+      li {
+        margin-top: 8px;
+      }
+    }
+
+    .sign-in {
+      margin: 0px 20px;
+
+      .fa-user-o {
+        margin: 0px 5px;
+      }
+    }
+  }
+
+  .sign-up {
+    position: relative;
+    padding: 15px 40px;
+    background-color: rgb(241, 106, 43);
+  }
+}
+
+
+@media screen and (max-width: 1199px){
+  .header {
+    .page-links {
+      .nav-item {
+        margin-right: 0px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .header {
+    .home::before {
+      display: none;
+    }
+
+      .page-links {
+
+        .active,
+        .nav-item:hover {
+          border: none;
+        }
+      }
+    
+
+    .login-link {
+      display: contents;
+      ul{
+        li{
+          margin: 0px;
+        }
+      }
+
+      .car-icon {
+        display: none;
+      }
+
+      .star-icon {
+        display: none;
+      }
+    }
+
+    .sign-up {
+      padding: 6px 25px;
+    }
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .header {
+    .page-links {
+      text-align: center;
+      float: none;
+
+      .nav-item {
+        margin-right: 0px;
+      }
+
+      .nav-icon {
+        display: contents;
+      }
+    }
+
+    .login-link {
+      ul{
+        li{
+          text-align: center;
+        }
+      }
+      .car-icon {
+        display: none;
+      }
+
+      .star-icon {
+        display: none;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    .login-link {
+      .car-icon {
+        display: none;
+      }
+
+      .star-icon {
+        display: none;
+      }
+    }
+
+    .sign-up {
+      padding: 6px 25px;
+    }
+  }
+}

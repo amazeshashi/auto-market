@@ -1,0 +1,51 @@
+<!-- auto market header -->
+<div class="container header mt-2">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand font-weight-bold mr-5" href="#">auto.market</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse  navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav page-links mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/home']" routerLinkActive="active">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/selling-product']" routerLinkActive="active">Sell Car</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/popular-product']" routerLinkActive="active">Buy Car</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/market-status']" routerLinkActive="active">Market</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/footer']" routerLinkActive="active">Contact Us</a>
+          </li>
+        </ul>
+        <form class="login-link">
+          <ul class="navbar-nav nav-icon me-auto mb-2 mb-lg-0">
+            <li class="nav-item car-icon">
+              <a class="nav-link active" href="#">
+                <i class="fa fa-car" aria-hidden="true"></i>
+              </a>
+            </li>
+  
+            <li class="nav-item star-icon">
+              <a class="nav-link active" href="#">
+                <i class="fa fa-star-o ml-3" aria-hidden="true" style="font-weight: bold;
+              font-size: 19px;"></i>
+              </a>
+            </li>
+  
+            <li class="nav-item sign-in">
+              <a class="nav-link active" href="#">
+                <i class="fa fa-user-o" aria-hidden="true"></i> Sign in</a>
+            </li>
+        <button class="btn text-white sign-up" type="submit">Sign up</button>
+      </ul>
+        </form>
+      </div>
+    </nav>
+  </div>

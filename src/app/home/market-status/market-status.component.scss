@@ -1,0 +1,41 @@
+.market-status{
+    position: relative;
+    margin-bottom: 45px;
+    .owl{
+       
+        .card{
+        border-radius: 10px;
+        box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+        border-radius: 10px;
+        
+        .card-img-top{
+            border-radius: 10px;
+            height: 828px;;
+        }
+    }
+}
+    .carousel-shadow{
+        width: 80%;
+        margin-left: 10%;
+        border-radius: 10%;
+        border-radius: 15px;
+        box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    }
+    .carousel-indicators{
+        position: absolute;
+        bottom: -40px;
+        li{
+        background-color: rgb(247, 90, 33);
+        border-color: rgb(247, 90, 33);
+        margin: 0 5px;
+        width: 6px;
+        height: 6px;
+        }
+    }
+    .carousel-inner{
+        img{
+            width: 100%;
+            border-radius: 15px;
+        }
+    }
+}
